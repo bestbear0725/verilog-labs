@@ -16,7 +16,10 @@ module FA_Gate(
 );
   wire ps, pc1, pc2;
 
+
   
+
+
 
 
 
