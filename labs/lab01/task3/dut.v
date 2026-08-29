@@ -13,6 +13,8 @@ module dut(
   output       cout
 );
 
+
+
   // ---- Option 1: delayed ripple-carry adder ----
   rca U_IMPL (.a(a), .b(b), .cin(cin), .sum(sum), .cout(cout));
 
