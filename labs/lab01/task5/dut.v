@@ -12,6 +12,8 @@ module dut(
   output        cout
 );
 
+
+
   // ---- Bonus: hierarchical (O(log n)) 64-bit carry-lookahead adder ----
   cla64_hier U_IMPL (.a(a), .b(b), .cin(cin), .sum(sum), .cout(cout));
 
