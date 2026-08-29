@@ -13,6 +13,8 @@ module dut(
   output        cout
 );
 
+
+
   // ---- Option 1: 64-bit ripple-carry adder ----
   rca64 U_IMPL (.a(a), .b(b), .cin(cin), .sum(sum), .cout(cout));
 
